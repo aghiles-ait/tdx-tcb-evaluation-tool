@@ -1,0 +1,12 @@
+[package]
+name = "tcb-evaluation-tool"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+dcap-rs = { git = "https://github.com/automata-network/dcap-rs.git", rev="d847b8f75a493640c4881bdf67775250b6baefab" }
+anyhow = "1.0.97"
+x509-parser = "0.15.1"
+clap = { version = "4.0", features = ["derive", "env"] }
+rand = "0.8.5"
+hex = "0.4.3"
