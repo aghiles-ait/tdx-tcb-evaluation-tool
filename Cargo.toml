@@ -10,3 +10,5 @@ x509-parser = "0.15.1"
 clap = { version = "4.0", features = ["derive", "env"] }
 rand = "0.8.5"
 hex = "0.4.3"
+ureq = { version = "2.12", features = ["json"] }
+serde_json = "1.0"
